@@ -19,7 +19,7 @@ body {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    background-image: url('./images/1.webp');
+    /* background-image: url('./images/1.webp'); */
     background-position: center;
     background-size: cover;
     transition: var(--transition);
@@ -37,11 +37,12 @@ body::before {
 }
 
 .slider-container {
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 6px rgba(255, 255, 255, 0.2);
     height: 70vh;
     width: 70vw;
     position: relative;
     overflow: hidden;
+    border: 1px solid gray;
 }
 .slide {
     opacity: 0;
